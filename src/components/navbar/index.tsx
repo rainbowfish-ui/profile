@@ -15,12 +15,12 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-4 w-[50%] h-fit rounded-lg backdrop-blur-sm border flex items-center justify-between p-1 text-sm">
-      <div className="flex gap-2 items-center">
-        <div className="size-10 bg-black rounded-md text-white flex items-center justify-center border-pink-500">
-          <GiFishingNet size={28} />
+    <nav className="sticky py-2 w-[80%] h-fit rounded-lg backdrop-blur-sm flex items-center justify-between p-1 text-sm">
+      <div className="flex items-center drop-shadow-lg">
+        <div className="size-10 rounded-md flex items-center justify-center">
+          <GiFishingNet size={18} />
         </div>
-        <h1 className="text-lg font-semibold drop-shadow-2xl">rainbowfish</h1>
+        <h1 className="text-lg font-semibold drop-shadow-2xl">Rainbowfish</h1>
       </div>
       <div className="flex gap-2 items-center justify-center font-semibold max-lg:hidden">
         {navItems.map(({ name, route }) => {
@@ -35,8 +35,8 @@ const Navbar = () => {
           );
         })}
       </div>
-      <button className="bg-black rounded-lg text-white px-4 py-2 h-10 text-nowrap">
-        Have an Idea?
+      <button className="bg-black rounded-lg text-white px-6 py-1 h-10 text-nowrap">
+        Register
       </button>
     </nav>
   );
