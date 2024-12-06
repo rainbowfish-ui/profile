@@ -15,10 +15,10 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <nav className="sticky py-2 w-[80%] h-fit rounded-lg backdrop-blur-sm flex items-center justify-between p-1 text-sm">
+    <nav className="py-2 w-[80%] h-fit rounded-lg backdrop-blur-sm flex items-center justify-between p-1 text-sm sticky top-0 z-50">
       <div className="flex items-center drop-shadow-lg">
         <div className="size-10 rounded-md flex items-center justify-center">
-          <GiFishingNet size={18} />
+          <GiFishingNet size={25  } />
         </div>
         <h1 className="text-lg font-semibold drop-shadow-2xl">Rainbowfish</h1>
       </div>
